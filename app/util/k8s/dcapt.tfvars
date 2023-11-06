@@ -10,12 +10,12 @@
 # Unique name of your enterprise-scale test cluster.
 # This value can not be altered after the configuration has been applied.
 # ! REQUIRED !
-environment_name = "dcapt-product"
+environment_name = "dcapt-jira"
 
 # Supported products: jira, confluence, bitbucket and bamboo.
 # e.g.: products = ["confluence"]
 # ! REQUIRED !
-products = ["product-to-deploy"]
+products = ["jira"]
 
 # Default AWS region for DCAPT snapshots.
 region = "us-east-2"
@@ -74,7 +74,7 @@ jira_image_repository = "atlassian/jira-software"
 # If storing license as plain-text is not a concern for this environment, feel free to uncomment the following line and supply the license here.
 # Please make sure valid Jira/JSM license is used without spaces and new line symbols.
 # ! REQUIRED !
-jira_license = "jira-license"
+jira_license = "AAABxg0ODAoPeNp9kl1vmzAUhu/5FUi72S5AfKyBVrLUzXE7OiBpSKZuyo1LTxJ31Ga2Scu/H19V0iaNxI3xec95zvv6UyK4mYqt6YxMx7s485vPxNnc9BzPN/5C/QukYoIjd+Q4gRP6vmusJQDfiLIEaccsB66APDDdVpF0TmbTWZQRI62e7kFOVgvVdECWa2DBNc11Sp8AFa0sZ1Rdasi5WAlpgzIemaT2gW5ayXxDFYypBtRiWa5rOSNjGD2vS+h64kmSkBmOvsWvV+SlZLLe03mtbuAgCWXFKZBSiocq13Z7sJRY6WcqwW6UbAtIywpOlTVDKQauQfalRU/0g6oNSvAzJrU++xou0tQjtzd/rrd+XP8MIQh/TwW+usXRHQ3I43co1/HdoqL1NOYjzRf6+t96iZbIyKp7lUtWdqbvWD5O40hmx4xrPGmYOeX5B+adWPkguGFONEZxNM5IasXueXAeekHYt3nvUVOCjpQdn5ZpKlvlihYKjIlcU84U7daet0leCWlgCd2f9y9nCOP1aXtv3OmASsnUEPIYdk7fNAhmNiCYn9sFzH6DL8sLk2xpUXUDe/CDp3LC+H2Cfd2uZ3/+D0RjRsEwLQIVAI+MChinG4HcubXYaKeZLCkiAYfHAhQCywXSImXd8RQdWJ/glySkQGHz7g==X02lp"
 
 # Number of Jira/JSM application nodes
 # Note: For initial installation this value needs to be set to 1 and it can be changed only after Jira is fully
